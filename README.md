@@ -1,19 +1,38 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Metric/Imperial Unit Converter
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple, clean, and responsive web application that converts values between metric and imperial units instantly. This tool handles length (meters/feet), volume (liters/gallons), and mass (kilograms/pounds) simultaneously.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could go further with one of our advanced courses 🚀
+## Features
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- **Instant Multi-Conversion:** Converts length, volume, and mass all at once with a single click.
+- **Robust Input Validation:** Automatically detects and alerts users about empty inputs, text strings, or negative values to prevent calculation errors.
+- **High Precision:** Displays conversions accurate to three decimal places.
+- **Responsive Design:** Clean, modern user interface that works beautifully on both desktop and mobile screens.
 
-Happy Coding!
+## Conversion Specs
+
+The application uses the following accurate conversion baselines:
+- **Length:** 1 Meter = 3.281 Feet
+- **Volume:** 1 Liter = 0.264 Gallons (1 Gallon = 3.785 Liters)
+- **Mass:** 1 Kilogram = 2.205 Pounds
+
+## Tech Stack
+
+- **HTML5:** Semantic markup structure.
+- **CSS3:** Custom modern UI layouts and responsive typography.
+- **JavaScript (ES6):** Dynamic DOM manipulation, arithmetic conversions, and real-time input validation.
+
+## Getting Started
+
+To run this project locally, you don't need to install any heavy packages or build tools. 
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   ```
+2. **Navigate into the directory:**
+   ```bash
+   cd YOUR-REPO-NAME
+   ```
+3. **Open the project:**
+   Simply double-click the `index.html` file to open it directly in any modern web browser, or use a local server tool like VS Code's *Live Server* extension.
